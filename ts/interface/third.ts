@@ -19,8 +19,7 @@ interface INotSuccesFetch {
   data: null
 }
 
-const fakeFetch = function () {
-  //- дописать тип который возращается
+const fakeFetch = function (): ISuccesFetch | INotSuccesFetch {
   const isFetchSucces: boolean = Math.floor(Math.random() * (100 - 1 + 1)) + 1 > 50
   // Успешный ответ
   const successResponse: ISuccesFetch = {
@@ -58,4 +57,3 @@ const fakeFetch = function () {
 }
 
 console.log(fakeFetch());
-
