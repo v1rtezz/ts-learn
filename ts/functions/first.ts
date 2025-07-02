@@ -6,16 +6,16 @@
 //    available: true,
 //  }
 
-type productTypes = {
-  name: string,
-  price: number,
+type ProductType = {
+  name: string
+  price: number
   available: boolean
 }
 
-const product :productTypes = {
+const product: ProductType = {
   name: "Продукт крутой",
   price: 150000,
-  available: true
+  available: true,
 }
 
-console.log(product);
+console.log(product)

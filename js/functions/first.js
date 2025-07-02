@@ -9,6 +9,6 @@
 const product = {
     name: "Продукт крутой",
     price: 150000,
-    available: true
+    available: true,
 };
 console.log(product);
