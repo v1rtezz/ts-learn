@@ -11,7 +11,6 @@
 //   data: null,
 // }
 const fakeFetch = function () {
-    //- дописать тип который возращается
     const isFetchSucces = Math.floor(Math.random() * (100 - 1 + 1)) + 1 > 50;
     // Успешный ответ
     const successResponse = {

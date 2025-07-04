@@ -8,7 +8,7 @@ const classifyNumber = function (number: number): string {
   if (number === 0) {
     return "zero"
   }
-  return number>0 ? "positive" : "negative"
+  return number>0 ? "poitive" : "negative"
 }
 
-console.log(classifyNumber(-2));
+console.log(classifyNumber(1));
